@@ -450,7 +450,7 @@ WPAPI.discover = function( url ) {
 			});
 		})
 		.catch(function( err ) {
-			console.error( err );
+			// console.error( err );
 			if ( endpoint ) {
 				console.warn( 'Endpoint detected, proceeding despite error...' );
 				console.warn( 'Binding to ' + endpoint + ' and assuming default routes' );
